@@ -1,0 +1,1663 @@
+{
+    "style": {
+      "font-family": "sans-serif",
+      "background-color": "#FAFCFF",
+      "node-color": "#4C8EDA",
+      "border-width": 2,
+      "border-color": "#2870c2",
+      "radius": 25,
+      "node-padding": 5,
+      "node-margin": 2,
+      "outside-position": "auto",
+      "node-icon-image": "",
+      "node-background-image": "",
+      "icon-position": "inside",
+      "icon-size": 64,
+      "caption-position": "inside",
+      "caption-max-width": 200,
+      "caption-color": "#ffffff",
+      "caption-font-size": 10,
+      "caption-font-weight": "normal",
+      "label-position": "outside",
+      "label-display": "bare",
+      "label-color": "#ffffff",
+      "label-background-color": "#4C8EDA",
+      "label-border-color": "#4C8EDA",
+      "label-border-width": 0,
+      "label-font-size": 10,
+      "label-padding": 2,
+      "label-margin": 2,
+      "directionality": "directed",
+      "detail-position": "inline",
+      "detail-orientation": "parallel",
+      "arrow-width": 1,
+      "arrow-color": "#A5ABB6",
+      "margin-start": 0,
+      "margin-end": 0,
+      "margin-peer": 20,
+      "attachment-start": "normal",
+      "attachment-end": "normal",
+      "relationship-icon-image": "",
+      "type-color": "#000000",
+      "type-background-color": "#ffffff",
+      "type-border-color": "#000000",
+      "type-border-width": 0,
+      "type-font-size": 10,
+      "type-padding": 2,
+      "property-position": "outside",
+      "property-alignment": "colon",
+      "property-color": "#000000",
+      "property-font-size": 10,
+      "property-font-weight": "normal"
+    },
+    "nodes": [
+      {
+        "id": "n7",
+        "position": {
+          "x": 573.4562559051251,
+          "y": 598.5404725798587
+        },
+        "caption": "Product_group",
+        "labels": [
+          "Product"
+        ],
+        "properties": {
+          "name": "",
+          "id ": "",
+          "FirstPassYield": "0.7",
+          "BreakawayTorque": "",
+          "quantity": "10"
+        },
+        "style": {
+          "label-position": "outside"
+        }
+      },
+      {
+        "id": "n8",
+        "position": {
+          "x": 20.55154035042656,
+          "y": 117.78821934847383
+        },
+        "caption": "Process",
+        "labels": [
+          "Prozess"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#fe9200",
+          "border-color": "#fe9200"
+        }
+      },
+      {
+        "id": "n10",
+        "position": {
+          "x": 805.7614041443787,
+          "y": 544.9076097230354
+        },
+        "caption": "Consequence",
+        "labels": [
+          "Consequence",
+          "reconnaissance"
+        ],
+        "properties": {
+          "description": "Discovery of  threatable product qualities"
+        },
+        "style": {
+          "node-color": "#f44e3b",
+          "border-color": "#f44e3b"
+        }
+      },
+      {
+        "id": "n11",
+        "position": {
+          "x": 805.7614041443787,
+          "y": -249.36924443309232
+        },
+        "caption": "Fault",
+        "labels": [
+          "Cause"
+        ],
+        "properties": {
+          "name": "",
+          "id ": "",
+          "description": ""
+        },
+        "style": {
+          "node-color": "#7b64ff",
+          "border-color": "#7b64ff"
+        }
+      },
+      {
+        "id": "n12",
+        "position": {
+          "x": 489.87956197701993,
+          "y": -49.92887548014352
+        },
+        "caption": "Screw",
+        "labels": [
+          "Product"
+        ],
+        "properties": {
+          "name": "screw",
+          "id ": "s1"
+        },
+        "style": {
+          "label-position": "outside"
+        }
+      },
+      {
+        "id": "n13",
+        "position": {
+          "x": 661.6290346467722,
+          "y": -49.92887548014352
+        },
+        "caption": "Loose parts",
+        "labels": [
+          "Product"
+        ],
+        "properties": {
+          "name": "Loose parts",
+          "id ": "l1"
+        },
+        "style": {
+          "label-position": "outside"
+        }
+      },
+      {
+        "id": "n14",
+        "position": {
+          "x": 573.4562559051251,
+          "y": 47.07112451985648
+        },
+        "caption": "Screwing process",
+        "labels": [
+          "Prozess"
+        ],
+        "properties": {
+          "name": "screwing process",
+          "id ": "sp1",
+          "Generated Torque": "50",
+          "Screwed": "True"
+        },
+        "style": {
+          "node-color": "#fe9200",
+          "border-color": "#fe9200"
+        }
+      },
+      {
+        "id": "n15",
+        "position": {
+          "x": 573.4562559051251,
+          "y": 312.2411637139379
+        },
+        "caption": "Control process",
+        "labels": [
+          "Prozess"
+        ],
+        "properties": {
+          "name": "control process",
+          "id ": "cp1",
+          "Torque Tolerance": "10",
+          "Bool_IO": "True",
+          "Required_Torque": "50"
+        },
+        "style": {
+          "node-color": "#fe9200",
+          "border-color": "#fe9200"
+        }
+      },
+      {
+        "id": "n16",
+        "position": {
+          "x": 573.4562559051251,
+          "y": 175.11043007854877
+        },
+        "caption": "Screwed parts",
+        "labels": [
+          "Product"
+        ],
+        "properties": {
+          "name": "screw",
+          "id ": "s1",
+          "Generated Torque": "50",
+          "Screwed": "True"
+        },
+        "style": {
+          "label-position": "outside"
+        }
+      },
+      {
+        "id": "n17",
+        "position": {
+          "x": 489.87956197701993,
+          "y": 456.5107334692829
+        },
+        "caption": "Bad Part",
+        "labels": [
+          "Product"
+        ],
+        "properties": {
+          "name": "screw",
+          "id ": "s1",
+          "quality": "NIO",
+          "BreakawayTorque": ""
+        },
+        "style": {
+          "label-position": "outside"
+        }
+      },
+      {
+        "id": "n18",
+        "position": {
+          "x": 661.6290346467722,
+          "y": 456.5107334692829
+        },
+        "caption": "Good part",
+        "labels": [
+          "Product"
+        ],
+        "properties": {
+          "name": "screw",
+          "id ": "s1",
+          "quality ": "IO",
+          "BreakawayTorque": ""
+        },
+        "style": {
+          "label-position": "outside"
+        }
+      },
+      {
+        "id": "n19",
+        "position": {
+          "x": 956.3435035009675,
+          "y": -121.58338297774918
+        },
+        "caption": "Screwing module",
+        "labels": [
+          "Resource",
+          "Screwing System"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n20",
+        "position": {
+          "x": 1043.0381033049525,
+          "y": -33.943867281809716
+        },
+        "caption": "Safety- Systems",
+        "labels": [
+          "Resource"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n21",
+        "position": {
+          "x": 1043.0381033049525,
+          "y": 28.5760686246037
+        },
+        "caption": "Screwing unit",
+        "labels": [
+          "Resource"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n22",
+        "position": {
+          "x": 1169.7053872693562,
+          "y": 82.78587376518988
+        },
+        "caption": "Bit",
+        "labels": [
+          "Resource"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n23",
+        "position": {
+          "x": 1169.7053872693562,
+          "y": 165.37805693644754
+        },
+        "caption": "Drive",
+        "labels": [
+          "Resource"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n24",
+        "position": {
+          "x": 1169.7053872693562,
+          "y": 247.9702401077052
+        },
+        "caption": "Torque sensor",
+        "labels": [
+          "Resource"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n25",
+        "position": {
+          "x": 20.55154035042656,
+          "y": 39.92235244936297
+        },
+        "caption": "Screw",
+        "labels": [
+          "Product"
+        ],
+        "properties": {
+          "name": "screw",
+          "id ": "s1"
+        },
+        "style": {
+          "label-position": "outside"
+        }
+      },
+      {
+        "id": "n26",
+        "position": {
+          "x": 1043.0381033049525,
+          "y": 480.99999999999966
+        },
+        "caption": "Control unit",
+        "labels": [
+          "Resource",
+          "Control System"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n27",
+        "position": {
+          "x": 1169.7053872693562,
+          "y": 358.1700391940814
+        },
+        "caption": "PLC",
+        "labels": [
+          "Resource"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n29",
+        "position": {
+          "x": 1169.7053872693562,
+          "y": 578.1990816402472
+        },
+        "caption": "PLC",
+        "labels": [
+          "Resource"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n31",
+        "position": {
+          "x": 1424.4471719631329,
+          "y": 92.99999999999966
+        },
+        "caption": "TS Controller",
+        "labels": [
+          "Resource",
+          "Production network"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n32",
+        "position": {
+          "x": 1291.3874344704132,
+          "y": 39.92235244936297
+        },
+        "caption": "Network architecture",
+        "labels": [
+          "Resource",
+          "Production network"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n33",
+        "position": {
+          "x": 1424.4471719631329,
+          "y": 172.98208994208264
+        },
+        "caption": "Interface SPS",
+        "labels": [
+          "Resource",
+          "Production network"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n34",
+        "position": {
+          "x": 1424.4471719631329,
+          "y": 268.2158728954948
+        },
+        "caption": "Work- station",
+        "labels": [
+          "Resource",
+          "Production network"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n35",
+        "position": {
+          "x": 1424.4471719631329,
+          "y": 363.4496558489069
+        },
+        "caption": "HMI",
+        "labels": [
+          "Resource",
+          "Production network"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n36",
+        "position": {
+          "x": 1424.4471719631329,
+          "y": 456.5107334692829
+        },
+        "caption": "Firewall",
+        "labels": [
+          "Resource",
+          "Production network"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n39",
+        "position": {
+          "x": 1291.3874344704132,
+          "y": 644.4693480600023
+        },
+        "caption": "Network architecture",
+        "labels": [
+          "Resource",
+          "Office network"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999",
+          "outside-position": "left"
+        }
+      },
+      {
+        "id": "n40",
+        "position": {
+          "x": 1424.4471719631329,
+          "y": 734.4825804474895
+        },
+        "caption": "Software Tools",
+        "labels": [
+          "Resource",
+          "Office network"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n41",
+        "position": {
+          "x": 1424.4471719631329,
+          "y": 831.4825804474895
+        },
+        "caption": "Remote Access PC",
+        "labels": [
+          "Resource",
+          "Office network"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n42",
+        "position": {
+          "x": 1424.4471719631329,
+          "y": 928.4825804474895
+        },
+        "caption": "Data Server",
+        "labels": [
+          "Resource",
+          "Office network"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n44",
+        "position": {
+          "x": 1627.72470000514,
+          "y": -3.999999999999659
+        },
+        "caption": "Building",
+        "labels": [
+          "Resource",
+          "Infrastructure"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n45",
+        "position": {
+          "x": 1627.72470000514,
+          "y": 92.99999999999966
+        },
+        "caption": "Server Room",
+        "labels": [
+          "Resource",
+          "Infrastructure"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n46",
+        "position": {
+          "x": 1627.72470000514,
+          "y": 189.99999999999966
+        },
+        "caption": "Control Cabinet",
+        "labels": [
+          "Resource",
+          "Infrastructure"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n47",
+        "position": {
+          "x": 1627.72470000514,
+          "y": 286.99999999999966
+        },
+        "caption": "Wiring",
+        "labels": [
+          "Resource",
+          "Infrastructure"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n48",
+        "position": {
+          "x": 1627.72470000514,
+          "y": 616.3681153515768
+        },
+        "caption": "Management",
+        "labels": [
+          "Resource",
+          "Infrastructure"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n49",
+        "position": {
+          "x": 1627.72470000514,
+          "y": 716.8614991578331
+        },
+        "caption": "Maintanence Staff",
+        "labels": [
+          "Resource",
+          "Infrastructure"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n50",
+        "position": {
+          "x": 1627.72470000514,
+          "y": 810.3681153515768
+        },
+        "caption": "Quality Engineer",
+        "labels": [
+          "Resource",
+          "Infrastructure"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n51",
+        "position": {
+          "x": 1627.72470000514,
+          "y": 907.3681153515768
+        },
+        "caption": "Software Engineer",
+        "labels": [
+          "Resource",
+          "Infrastructure"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n52",
+        "position": {
+          "x": 805.7614041443787,
+          "y": 286.99999999999966
+        },
+        "caption": "Cause",
+        "labels": [
+          "Cause"
+        ],
+        "properties": {
+          "name": "",
+          "id ": "",
+          "description": ""
+        },
+        "style": {
+          "node-color": "#ab149e",
+          "border-color": "#ab149e"
+        }
+      },
+      {
+        "id": "n53",
+        "position": {
+          "x": 1864.7545433497712,
+          "y": 124.77498696098667
+        },
+        "caption": "ISMS",
+        "labels": [
+          "Security Artefacts",
+          "Management"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n54",
+        "position": {
+          "x": 1864.7545433497712,
+          "y": 214.78821934847383
+        },
+        "caption": "QMS",
+        "labels": [
+          "Security Artefacts",
+          "Management"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n55",
+        "position": {
+          "x": 1864.7545433497712,
+          "y": 311.78821934847383
+        },
+        "caption": "Role Management",
+        "labels": [
+          "Security Artefacts",
+          "Management"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n56",
+        "position": {
+          "x": 1864.7545433497712,
+          "y": 408.78821934847383
+        },
+        "caption": "Network configuration",
+        "labels": [
+          "Security Artefacts",
+          "Configuration"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n57",
+        "position": {
+          "x": 1864.7545433497712,
+          "y": 518.7977971795569
+        },
+        "caption": "Authentication",
+        "labels": [
+          "Security Artefacts",
+          "Configuration"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      },
+      {
+        "id": "n58",
+        "position": {
+          "x": 1864.7545433497712,
+          "y": 644.4693480600023
+        },
+        "caption": "Access Control",
+        "labels": [
+          "Security Artefacts",
+          "Monitoring"
+        ],
+        "properties": {
+          "name": "",
+          "id ": ""
+        },
+        "style": {
+          "node-color": "#999999",
+          "border-color": "#999999"
+        }
+      }
+    ],
+    "relationships": [
+      {
+        "id": "n0",
+        "type": "INPUT _FOR",
+        "style": {},
+        "properties": {},
+        "fromId": "n12",
+        "toId": "n14"
+      },
+      {
+        "id": "n1",
+        "type": "INPUT_FOR",
+        "style": {},
+        "properties": {},
+        "fromId": "n13",
+        "toId": "n14"
+      },
+      {
+        "id": "n2",
+        "type": "CREATES",
+        "style": {},
+        "properties": {},
+        "fromId": "n14",
+        "toId": "n16"
+      },
+      {
+        "id": "n3",
+        "type": "INPUT_FOR",
+        "style": {},
+        "properties": {},
+        "fromId": "n16",
+        "toId": "n15"
+      },
+      {
+        "id": "n4",
+        "type": "CREATES",
+        "style": {},
+        "properties": {},
+        "fromId": "n15",
+        "toId": "n18"
+      },
+      {
+        "id": "n5",
+        "type": "CREATES",
+        "style": {},
+        "properties": {},
+        "fromId": "n15",
+        "toId": "n17"
+      },
+      {
+        "id": "n7",
+        "type": "COLLECTED_in",
+        "style": {},
+        "properties": {},
+        "fromId": "n17",
+        "toId": "n7"
+      },
+      {
+        "id": "n8",
+        "type": "COLLECTED_IN",
+        "style": {},
+        "properties": {},
+        "fromId": "n18",
+        "toId": "n7"
+      },
+      {
+        "id": "n9",
+        "type": "F",
+        "style": {
+          "directionality": "undirected",
+          "attachment-start": "bottom",
+          "attachment-end": "left",
+          "type-color": "#000000",
+          "type-background-color": "#ffffff"
+        },
+        "properties": {},
+        "fromId": "n19",
+        "toId": "n20"
+      },
+      {
+        "id": "n10",
+        "type": "F",
+        "style": {
+          "directionality": "undirected",
+          "attachment-start": "bottom",
+          "attachment-end": "left",
+          "type-color": "#000000",
+          "type-background-color": "#ffffff"
+        },
+        "properties": {},
+        "fromId": "n19",
+        "toId": "n21"
+      },
+      {
+        "id": "n11",
+        "type": "F",
+        "style": {
+          "directionality": "undirected",
+          "attachment-start": "bottom",
+          "attachment-end": "left",
+          "type-color": "#000000",
+          "type-background-color": "#ffffff"
+        },
+        "properties": {},
+        "fromId": "n21",
+        "toId": "n22"
+      },
+      {
+        "id": "n12",
+        "type": "F",
+        "style": {
+          "directionality": "undirected",
+          "attachment-start": "bottom",
+          "attachment-end": "left",
+          "type-color": "#000000",
+          "type-background-color": "#ffffff"
+        },
+        "properties": {},
+        "fromId": "n21",
+        "toId": "n23"
+      },
+      {
+        "id": "n13",
+        "type": "F",
+        "style": {
+          "directionality": "undirected",
+          "attachment-start": "bottom",
+          "attachment-end": "left",
+          "type-color": "#000000",
+          "type-background-color": "#ffffff"
+        },
+        "properties": {},
+        "fromId": "n21",
+        "toId": "n24"
+      },
+      {
+        "id": "n17",
+        "type": "F",
+        "style": {
+          "directionality": "undirected",
+          "attachment-start": "bottom",
+          "attachment-end": "left",
+          "type-color": "#000000",
+          "type-background-color": "#ffffff"
+        },
+        "properties": {},
+        "fromId": "n19",
+        "toId": "n27"
+      },
+      {
+        "id": "n18",
+        "type": "CONTROL",
+        "style": {
+          "arrow-color": "#fe9200",
+          "directionality": "undirected",
+          "attachment-start": "right",
+          "attachment-end": "right"
+        },
+        "properties": {},
+        "fromId": "n24",
+        "toId": "n27"
+      },
+      {
+        "id": "n19",
+        "type": "CONTROL",
+        "style": {
+          "arrow-color": "#fe9200",
+          "directionality": "undirected",
+          "attachment-start": "right",
+          "attachment-end": "right"
+        },
+        "properties": {},
+        "fromId": "n23",
+        "toId": "n27"
+      },
+      {
+        "id": "n22",
+        "type": "F",
+        "style": {
+          "attachment-start": "bottom",
+          "attachment-end": "left",
+          "directionality": "undirected",
+          "type-color": "#000000",
+          "type-background-color": "#ffffff"
+        },
+        "properties": {},
+        "fromId": "n26",
+        "toId": "n29"
+      },
+      {
+        "id": "n24",
+        "type": "",
+        "style": {
+          "directionality": "undirected",
+          "attachment-start": "bottom",
+          "attachment-end": "left"
+        },
+        "properties": {},
+        "fromId": "n32",
+        "toId": "n31"
+      },
+      {
+        "id": "n25",
+        "type": "",
+        "style": {
+          "directionality": "undirected",
+          "attachment-start": "bottom",
+          "attachment-end": "left"
+        },
+        "properties": {},
+        "fromId": "n32",
+        "toId": "n33"
+      },
+      {
+        "id": "n26",
+        "type": "",
+        "style": {
+          "directionality": "undirected",
+          "attachment-start": "bottom",
+          "attachment-end": "left"
+        },
+        "properties": {},
+        "fromId": "n32",
+        "toId": "n34"
+      },
+      {
+        "id": "n27",
+        "type": "",
+        "style": {
+          "directionality": "undirected",
+          "attachment-start": "bottom",
+          "attachment-end": "left"
+        },
+        "properties": {},
+        "fromId": "n32",
+        "toId": "n35"
+      },
+      {
+        "id": "n28",
+        "type": "",
+        "style": {
+          "directionality": "undirected",
+          "attachment-start": "bottom",
+          "attachment-end": "left"
+        },
+        "properties": {},
+        "fromId": "n32",
+        "toId": "n36"
+      },
+      {
+        "id": "n29",
+        "type": "LOGICAL",
+        "style": {
+          "arrow-color": "#a4dd00",
+          "directionality": "undirected"
+        },
+        "properties": {},
+        "fromId": "n31",
+        "toId": "n33"
+      },
+      {
+        "id": "n30",
+        "type": "LOGICAL",
+        "style": {
+          "arrow-color": "#a4dd00",
+          "directionality": "undirected"
+        },
+        "properties": {},
+        "fromId": "n33",
+        "toId": "n34"
+      },
+      {
+        "id": "n31",
+        "type": "LOGICAL",
+        "style": {
+          "arrow-color": "#a4dd00",
+          "directionality": "undirected"
+        },
+        "properties": {},
+        "fromId": "n34",
+        "toId": "n35"
+      },
+      {
+        "id": "n32",
+        "type": "LOGICAL",
+        "style": {
+          "arrow-color": "#a4dd00",
+          "directionality": "undirected"
+        },
+        "properties": {},
+        "fromId": "n35",
+        "toId": "n36"
+      },
+      {
+        "id": "n33",
+        "type": "LOGICAL",
+        "style": {
+          "arrow-color": "#a4dd00",
+          "directionality": "undirected",
+          "attachment-start": "right",
+          "attachment-end": "left"
+        },
+        "properties": {},
+        "fromId": "n29",
+        "toId": "n31"
+      },
+      {
+        "id": "n34",
+        "type": "LOGICAL",
+        "style": {
+          "arrow-color": "#a4dd00",
+          "directionality": "undirected",
+          "attachment-start": "right",
+          "attachment-end": "left"
+        },
+        "properties": {},
+        "fromId": "n27",
+        "toId": "n31"
+      },
+      {
+        "id": "n37",
+        "type": "F",
+        "style": {
+          "directionality": "undirected",
+          "attachment-start": "bottom",
+          "attachment-end": "left",
+          "type-background-color": "#ffffff",
+          "type-color": "#000000"
+        },
+        "properties": {},
+        "fromId": "n39",
+        "toId": "n40"
+      },
+      {
+        "id": "n38",
+        "type": "F",
+        "style": {
+          "directionality": "undirected",
+          "attachment-start": "bottom",
+          "attachment-end": "left",
+          "type-background-color": "#ffffff",
+          "type-color": "#000000"
+        },
+        "properties": {},
+        "fromId": "n39",
+        "toId": "n41"
+      },
+      {
+        "id": "n39",
+        "type": "F",
+        "style": {
+          "directionality": "undirected",
+          "attachment-start": "bottom",
+          "attachment-end": "left",
+          "type-background-color": "#ffffff",
+          "type-color": "#000000"
+        },
+        "properties": {},
+        "fromId": "n39",
+        "toId": "n42"
+      },
+      {
+        "id": "n42",
+        "type": "LOGICAL",
+        "style": {
+          "arrow-color": "#a4dd00",
+          "directionality": "undirected"
+        },
+        "properties": {},
+        "fromId": "n40",
+        "toId": "n41"
+      },
+      {
+        "id": "n43",
+        "type": "LOGICAL",
+        "style": {
+          "arrow-color": "#a4dd00",
+          "directionality": "undirected"
+        },
+        "properties": {},
+        "fromId": "n41",
+        "toId": "n42"
+      },
+      {
+        "id": "n55",
+        "type": "CONTROL",
+        "style": {
+          "attachment-start": "right",
+          "attachment-end": "right",
+          "arrow-color": "#fe9200",
+          "directionality": "undirected"
+        },
+        "properties": {},
+        "fromId": "n31",
+        "toId": "n42"
+      },
+      {
+        "id": "n56",
+        "type": "CONTROL",
+        "style": {
+          "attachment-start": "right",
+          "attachment-end": "right",
+          "arrow-color": "#fe9200",
+          "directionality": "undirected"
+        },
+        "properties": {},
+        "fromId": "n33",
+        "toId": "n42"
+      },
+      {
+        "id": "n57",
+        "type": "PHYSICAL",
+        "style": {
+          "arrow-color": "#0062b1",
+          "detail-orientation": "perpendicular",
+          "directionality": "undirected"
+        },
+        "properties": {},
+        "fromId": "n44",
+        "toId": "n45"
+      },
+      {
+        "id": "n58",
+        "type": "PHYSICAL",
+        "style": {
+          "arrow-color": "#0062b1",
+          "detail-orientation": "perpendicular",
+          "directionality": "undirected"
+        },
+        "properties": {},
+        "fromId": "n45",
+        "toId": "n46"
+      },
+      {
+        "id": "n59",
+        "type": "PHYSICAL",
+        "style": {
+          "arrow-color": "#0062b1",
+          "detail-orientation": "perpendicular",
+          "directionality": "undirected"
+        },
+        "properties": {},
+        "fromId": "n46",
+        "toId": "n47"
+      },
+      {
+        "id": "n60",
+        "type": "CONTROL",
+        "style": {
+          "arrow-color": "#fe9200",
+          "directionality": "undirected",
+          "attachment-start": "right",
+          "attachment-end": "left"
+        },
+        "properties": {},
+        "fromId": "n29",
+        "toId": "n42"
+      },
+      {
+        "id": "n61",
+        "type": "PHYSICAL",
+        "style": {
+          "attachment-start": "right",
+          "attachment-end": "right",
+          "arrow-color": "#0062b1",
+          "directionality": "undirected"
+        },
+        "properties": {},
+        "fromId": "n20",
+        "toId": "n26"
+      },
+      {
+        "id": "n62",
+        "type": "PHYSICAL",
+        "style": {
+          "attachment-start": "right",
+          "attachment-end": "left",
+          "arrow-color": "#0062b1",
+          "detail-orientation": "parallel",
+          "directionality": "undirected"
+        },
+        "properties": {},
+        "fromId": "n35",
+        "toId": "n47"
+      },
+      {
+        "id": "n63",
+        "type": "ORGANIZATIONAL",
+        "style": {
+          "attachment-start": "right",
+          "attachment-end": "left",
+          "arrow-color": "#aea1ff"
+        },
+        "properties": {},
+        "fromId": "n39",
+        "toId": "n51"
+      },
+      {
+        "id": "n64",
+        "type": "ORGANIZATIONAL",
+        "style": {
+          "attachment-start": "right",
+          "attachment-end": "left",
+          "arrow-color": "#aea1ff"
+        },
+        "properties": {},
+        "fromId": "n41",
+        "toId": "n50"
+      },
+      {
+        "id": "n65",
+        "type": "PHYSICAL",
+        "style": {
+          "attachment-start": "right",
+          "attachment-end": "left",
+          "arrow-color": "#0062b1",
+          "directionality": "undirected"
+        },
+        "properties": {},
+        "fromId": "n20",
+        "toId": "n44"
+      },
+      {
+        "id": "n66",
+        "type": "LOGICAL",
+        "style": {
+          "attachment-start": "right",
+          "attachment-end": "right",
+          "arrow-color": "#a4dd00"
+        },
+        "properties": {},
+        "fromId": "n36",
+        "toId": "n42"
+      },
+      {
+        "id": "n67",
+        "type": "LOGICAL",
+        "style": {
+          "attachment-start": "right",
+          "attachment-end": "right",
+          "arrow-color": "#a4dd00"
+        },
+        "properties": {},
+        "fromId": "n36",
+        "toId": "n41"
+      },
+      {
+        "id": "n68",
+        "type": "F",
+        "style": {
+          "attachment-start": "bottom",
+          "attachment-end": "left",
+          "directionality": "undirected",
+          "type-color": "#000000",
+          "type-background-color": "#ffffff"
+        },
+        "properties": {},
+        "fromId": "n19",
+        "toId": "n26"
+      },
+      {
+        "id": "n69",
+        "type": "ORGANIZATIONAL",
+        "style": {
+          "attachment-start": "right",
+          "arrow-color": "#aea1ff",
+          "attachment-end": "right"
+        },
+        "properties": {},
+        "fromId": "n48",
+        "toId": "n49"
+      },
+      {
+        "id": "n70",
+        "type": "ORGANIZATIONAL",
+        "style": {
+          "attachment-start": "right",
+          "attachment-end": "right",
+          "arrow-color": "#aea1ff"
+        },
+        "properties": {},
+        "fromId": "n48",
+        "toId": "n50"
+      },
+      {
+        "id": "n71",
+        "type": "ORGANIZATIONAL",
+        "style": {
+          "attachment-start": "right",
+          "attachment-end": "right",
+          "arrow-color": "#aea1ff"
+        },
+        "properties": {},
+        "fromId": "n48",
+        "toId": "n51"
+      },
+      {
+        "id": "n72",
+        "type": "SETS_PARAMETER",
+        "style": {},
+        "properties": {
+          "Generated Torque": "50"
+        },
+        "fromId": "n27",
+        "toId": "n14"
+      },
+      {
+        "id": "n73",
+        "type": "SETS_PARAMETER",
+        "style": {},
+        "properties": {
+          "Screwed": "True"
+        },
+        "fromId": "n19",
+        "toId": "n14"
+      },
+      {
+        "id": "n74",
+        "type": "ORGANIZATIONAL",
+        "style": {
+          "attachment-start": "right",
+          "attachment-end": "left"
+        },
+        "properties": {},
+        "fromId": "n26",
+        "toId": "n50"
+      },
+      {
+        "id": "n78",
+        "type": "THREATENS",
+        "style": {
+          "arrow-color": "#ab149e"
+        },
+        "properties": {},
+        "fromId": "n10",
+        "toId": "n18"
+      },
+      {
+        "id": "n79",
+        "type": "THREATENS",
+        "style": {
+          "arrow-color": "#ab149e"
+        },
+        "properties": {},
+        "fromId": "n10",
+        "toId": "n17"
+      },
+      {
+        "id": "n80",
+        "type": "LEADS_TO",
+        "style": {
+          "arrow-color": "#ab149e"
+        },
+        "properties": {},
+        "fromId": "n52",
+        "toId": "n10"
+      },
+      {
+        "id": "n81",
+        "type": "THREATENS",
+        "style": {
+          "arrow-color": "#ab149e"
+        },
+        "properties": {},
+        "fromId": "n10",
+        "toId": "n7"
+      },
+      {
+        "id": "n82",
+        "type": "THREATENS",
+        "style": {
+          "arrow-color": "#ab149e"
+        },
+        "properties": {},
+        "fromId": "n52",
+        "toId": "n14"
+      },
+      {
+        "id": "n83",
+        "type": "THREATENS",
+        "style": {
+          "arrow-color": "#ab149e"
+        },
+        "properties": {},
+        "fromId": "n52",
+        "toId": "n15"
+      },
+      {
+        "id": "n84",
+        "type": "SETS_PARAMETER",
+        "style": {},
+        "properties": {
+          "": ""
+        },
+        "fromId": "n29",
+        "toId": "n15"
+      }
+    ]
+  }
