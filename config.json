@@ -131,8 +131,8 @@
         "abbreviation": "IE",
         "fullname": "InternalElement",
         "attributes": ["Description", "Version",  "Copyright", "AdditionalInformation"],
-        "children": ["Revision", "MappingObject", "RoleRequirement", "RoleRequirements", 
-        "InternalElement", "Attribute", "ExternalInterface", "SupportedRoleClass", "InternalLink"],
+        "children": ["Revision", "MappingObject", "RoleRequirement", "InternalElement", 
+        "RoleRequirements", "Attribute", "ExternalInterface", "SupportedRoleClass", "InternalLink"],
         "multi": true,
         "tags": ["Name", "ID", "RefBaseSystemUnitPath", "ChangeMode"],
         "sorted": ["Name", "ID", "ChangeMode", "RefBaseSystemUnitPath", "AMLHeader"]
