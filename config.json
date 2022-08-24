@@ -130,7 +130,7 @@
     "InternalElement": {
         "abbreviation": "IE",
         "fullname": "InternalElement",
-        "attributes": ["Version", "Description", "Copyright", "AdditionalInformation"],
+        "attributes": ["Description", "Version",  "Copyright", "AdditionalInformation"],
         "children": ["Revision", "MappingObject", "RoleRequirement", "RoleRequirements", 
         "InternalElement", "Attribute", "ExternalInterface", "SupportedRoleClass", "InternalLink"],
         "multi": true,

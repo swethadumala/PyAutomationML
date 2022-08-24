@@ -288,26 +288,26 @@ abbreviate=True
 if __name__ == '__main__':
     with open("config.json") as f:
         common_concept = json.load(f)
-    aml_file= etree.parse(r'./Examples/PPRExample_AMLJsonWG.xml', parser)
+    aml_file= etree.parse(r'./Examples/Testbed.aml', parser)
     aml_file= aml_file.getroot()  
     json_dct= aml_file.to_json(common_concept)
-    with open("output.json", "w", encoding="utf-8") as outfile:
+    with open("Testbed.json", "w", encoding="utf-8") as outfile:
         json.dump(json_dct, outfile, ensure_ascii=False)
     compressed_json_dct= aml_file.global_to_json(common_concept)
-    with open("keys.json") as f:
-      keys = json.load(f)
-    compressed_json_dct["keys"]= keys 
+    #with open("keys.json") as f:
+    #  keys = json.load(f)
+    #compressed_json_dct["keys"]= keys 
     #Step 3: Append Key-Dictionary
     f = open('meta.yaml', 'w+')
     yaml.dump(json_dct, f, allow_unicode=True)
     f = open('compressed_meta.yaml', 'w+')
     yaml.dump(compressed_json_dct, f, allow_unicode=True)
 
-    with open("output_global.json", "w", encoding="utf-8") as outfile:
+    with open("Testbed_global.json", "w", encoding="utf-8") as outfile:
         json.dump(json_dct, outfile, ensure_ascii=False, indent=1)
     test_file = CAEXFile()
     test_file.create_from_json(common_concept, json_dct)
 
     doc = etree.ElementTree(test_file)
-    outFile = open('output.xml', 'w')
-    doc.write('output.xml', xml_declaration=False, encoding='utf-16') 
+    outFile = open('Testbed.xml', 'w')
+    doc.write('Testbed.xml', xml_declaration=False, encoding='utf-16') 
