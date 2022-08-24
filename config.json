@@ -18,7 +18,7 @@
     "Attribute": {
         "abbreviation": "Attr",
         "fullname": "Attribute",
-        "attributes": ["Value", "Description", "DefaultValue", "RefSemantic"],
+        "attributes": ["Description", "Value",  "DefaultValue", "RefSemantic"],
         "children": ["Attribute", "Constraint"],
         "multi": true,
         "tags": ["Name", "ID",  "AttributeDataType", "Unit", "ChangeMode"]
